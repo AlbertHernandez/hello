@@ -8,7 +8,6 @@
 
 .introduction {
   margin-top: 40px;
-  font-weight: bold;
 }
 
 .name {
@@ -72,7 +71,7 @@
       <h2> Hi There, I'm Albert! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
 
       <p>
-        I'm a Software Engineer 🚀 from Spain 🇪🇸, currently working 👨🏻‍💻 at <em><a href="https://www.coverwallet.com/">Coverwallet, an Aon Company</a></em>.
+        I'm a Software Engineer 🚀 from Spain 🇪🇸, currently working 👨🏻‍💻 at <em><a href="https://www.coverwallet.com/" target="_blank" rel="noopener noreferrer">Coverwallet, an Aon Company</a></em>.
       </p>
       <p>
         I'm a passionate learner who loves the code ☕︎. You'll always find me learning something new.
