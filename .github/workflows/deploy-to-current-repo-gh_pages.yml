@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build and Deploy
-        uses: AlbertHernandez/hello@master
+        uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: AlbertHernandez/hello
