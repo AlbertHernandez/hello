@@ -1,0 +1,18 @@
+
+name: A TO A:GH_PAGES
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Build and Deploy
+        uses: AlbertHernandez/hello@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: AlbertHernandez/hello
+          TARGET_BRANCH: gh_pages
+          BUILD_SCRIPT: npm && npm build
+          BUILD_DIR: docs/.vuepress/dist/
