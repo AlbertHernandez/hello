@@ -1,7 +1,7 @@
 /**
  * Client app enhancement file.
  *
- * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
+ * https://v1.vuepress.vuejs.org/about/basic-config.html#app-level-enhancements
  */
 
 export default ({
