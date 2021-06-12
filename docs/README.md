@@ -4,7 +4,7 @@ sidebar: auto
 title: Albert Hernandez
 ---
 
-## Hello
+## About
 
 <About />
 
