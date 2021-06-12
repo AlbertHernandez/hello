@@ -4,7 +4,8 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Albert Hernandez!',
+  base: '/hello/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
