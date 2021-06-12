@@ -14,5 +14,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: AlbertHernandez/hello
           TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: npm run build
+          BUILD_SCRIPT: npm install && npm run build
           BUILD_DIR: docs/.vuepress/dist/
