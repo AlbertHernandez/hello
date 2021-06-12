@@ -1,0 +1,16 @@
+# dependencies
+node_modules
+
+*.private
+
+# OS
+.DS_Store
+
+#doc
+/docs/.vuepress/dist
+
+# InteliJ IDE config
+.idea/
+
+# VSCODE
+.vscode/*
