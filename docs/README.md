@@ -4,10 +4,10 @@ sidebar: auto
 title: Albert Hernandez
 ---
 
-## Hello World! :earth_africa:
+## About me :man:
 
 <About />
 
-## Job Experience :computer:
+## My Experience :man_technologist:
 
 <Jobs />
