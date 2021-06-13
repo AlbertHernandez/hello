@@ -268,7 +268,7 @@ button {
       <ul class="ui-list">
         <li>
           <div class="card red">
-            <h2>Light theme for Insomnia</h2>
+            <h2>Ocean Light Theme</h2>
             <p>
               Light theme for Insomnia
             </p>
