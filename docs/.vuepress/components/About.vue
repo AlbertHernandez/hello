@@ -7,10 +7,6 @@
   min-height: 100vh;
 }
 
-.introduction {
-  margin-top: 40px;
-}
-
 .name {
   font-size: 3rem;
   font-weight: bold;
