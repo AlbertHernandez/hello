@@ -5,6 +5,7 @@
   justify-content: center;
   min-height: 100vh;
   margin-bottom: 160px;
+  margin-top: 24px;
 }
 
 .job {
