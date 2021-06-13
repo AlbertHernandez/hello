@@ -16,7 +16,7 @@
 }
 
 .lastname {
-  color: #0086EB;
+  color: #1DA1F2;
 }
 
 .section {
@@ -55,18 +55,20 @@
 
 <template>
   <div class="about-section">
-<!--    <div class="name">-->
-<!--      <span class="firstname">ALBERT</span>-->
-<!--      <span class="lastname">HERNANDEZ</span>-->
-<!--    </div>-->
-
     <div class="introduction">
-      <h2> Hi There, I'm Albert! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+      <h2> Hi There, I'm
+        <div class="name">
+          <span class="firstname">Albert</span>
+          <span class="lastname">Hernandez</span>
+          <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="32px">
+        </div>
+
+      </h2>
+
 
       <p>
         I'm a Software Engineer 🚀 from Spain 🇪🇸, currently working 👨🏻‍💻 at <em><a href="https://www.coverwallet.com/" target="_blank" rel="noopener noreferrer">Coverwallet, an Aon Company</a></em>.
-      </p>
-      <p>
+        <br>
         I'm a passionate learner who loves the code ☕︎. You'll always find me learning something new.
       </p>
       <p>
@@ -77,22 +79,22 @@
     <div class="social-icons-container">
       <ul class="ui-list social-networks">
         <li>
-          <a href="https://github.com/AlbertHernandez">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlbertHernandez">
             <img src="../../icons/github.svg" alt="mongo">
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/albert-hernandez-pellicer/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/albert-hernandez-pellicer/">
             <img src="../../icons/linkedin.svg" alt="mongo">
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@AlbertHernandezDev">
+          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@AlbertHernandezDev">
             <img src="../../icons/medium.svg" alt="mongo">
           </a>
         </li>
         <li>
-          <a href="mailto:alberthernandezdev@gmail.com">
+          <a target="_blank" rel="noopener noreferrer" href="mailto:alberthernandezdev@gmail.com">
             <img src="../../icons/gmail.svg" alt="mongo">
           </a>
         </li>

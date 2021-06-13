@@ -4,7 +4,7 @@ sidebar: auto
 title: Albert Hernandez
 ---
 
-## About me :man:
+## Hello World! :earth_americas:
 
 <About />
 
