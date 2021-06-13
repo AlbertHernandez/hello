@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: -38.8px;
   min-height: 100vh;
 }
 
