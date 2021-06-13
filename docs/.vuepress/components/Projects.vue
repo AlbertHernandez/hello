@@ -47,6 +47,11 @@
   box-shadow: 5px 5px 10px #ccc;
   margin-right: 1em;
   margin-bottom: 1em;
+  filter: grayscale(40%);
+}
+
+.card:hover {
+  filter: grayscale(0%);
 }
 
 .card > a {
