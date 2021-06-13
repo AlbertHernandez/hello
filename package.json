@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js --dest=docs"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   "dependencies": {
     "timeline-vuejs": "^1.1.7",
     "vue-cute-timeline": "^1.2.8",
-    "vue-typical": "^1.6.2"
+    "vue-material-design-icons": "^4.11.0",
+    "vue-typical": "^1.6.2",
+    "vuepress-plugin-font-awesome": "^1.90.6"
   }
 }

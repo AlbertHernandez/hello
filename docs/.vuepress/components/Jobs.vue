@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  margin-top: 32px;
+  margin-bottom: 160px;
 }
 
 .job {
@@ -26,13 +28,11 @@
 }
 
 .company {
-  font-weight: bold;
   font-size: 24px;
-  font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 .coverwallet-title {
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .ui-list {
@@ -59,6 +59,12 @@
   width: 32px;
 }
 
+.koa-icon {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
 </style>
 
 <template>
@@ -79,10 +85,36 @@
         <div class="job">
           <div class="position"> Software Engineer </div>
           <div class="time"> March 2021 - Present </div>
+          <div class="description">
+            <p>
+              I continue working on the microservices that we have been working on but now from a higher level.
+            </p>
+
+            <p>
+              The team has grown and now I am more in charge of helping and supporting them to
+              maintain the microservices we have developed. I am very involved in the
+              documentation and scalability of the services.
+            </p>
+
+            <p>
+              I actively participate in the internal definition and implementation of the
+              different tools that allow us to create scalable systems, I can't talk much about
+              this but it's very interesting!
+            </p>
+          </div>
           <div class="stack">
             <ul class="ui-list">
               <li>
+                <img src="../../icons/typescript.svg" alt="typescript">
+              </li>
+              <li>
+                <img src="../../icons/javascript.svg" alt="javascript">
+              </li>
+              <li>
                 <img src="../../icons/nodejs.svg" alt="node">
+              </li>
+              <li>
+                <img src="../../icons/koa.svg" alt="koa" class="koa-icon">
               </li>
               <li>
                 <img src="../../icons/redis.svg" alt="redis">
@@ -91,16 +123,13 @@
                 <img src="../../icons/mongodb.svg" alt="mongo">
               </li>
               <li>
-                <img src="../../icons/postgresql.svg" alt="postgresql">
-              </li>
-              <li>
-                <img src="../../icons/docker.svg" alt="docker">
+                <img src="../../icons/kubernets.svg" alt="kubernets">
               </li>
               <li>
                 <img src="../../icons/npm.svg" alt="npm">
               </li>
               <li>
-                <img src="../../icons/nestjs.svg" alt="npm">
+                <img src="../../icons/circleci.svg" alt="circleci">
               </li>
             </ul>
           </div>
@@ -114,9 +143,7 @@
           <div class="description">
             <p>
               Together with some node developers, we have created multiple microservices that have
-              become core projects of the company. Some of them are systems of recommendations of
-              actions to our agents, system of assignments of agents to customers who enter the
-              platform, system of synchronization between different consumers and providers...
+              become core projects of the company.
             </p>
 
             <p>
@@ -135,7 +162,13 @@
           <div class="stack">
             <ul class="ui-list">
               <li>
+                <img src="../../icons/javascript.svg" alt="javascript">
+              </li>
+              <li>
                 <img src="../../icons/nodejs.svg" alt="node">
+              </li>
+              <li>
+                <img src="../../icons/koa.svg" alt="koa" class="koa-icon">
               </li>
               <li>
                 <img src="../../icons/redis.svg" alt="redis">
@@ -150,16 +183,19 @@
                 <img src="../../icons/docker.svg" alt="docker">
               </li>
               <li>
-                <img src="../../icons/html-five.svg" alt="html">
+                <img src="../../icons/react.svg" alt="react">
               </li>
               <li>
                 <img src="../../icons/redux.svg" alt="redux">
               </li>
               <li>
-                <img src="../../icons/sass-alt.svg" alt="sass">
+                <img src="../../icons/sass.svg" alt="sass">
               </li>
               <li>
                 <img src="../../icons/npm.svg" alt="npm">
+              </li>
+              <li>
+                <img src="../../icons/circleci.svg" alt="circleci">
               </li>
             </ul>
           </div>
@@ -180,16 +216,19 @@
           <div class="stack">
             <ul class="ui-list">
               <li>
-                <img src="../../icons/html-five.svg" alt="html">
+                <img src="../../icons/javascript.svg" alt="javascript">
+              </li>
+              <li>
+                <img src="../../icons/react.svg" alt="react">
               </li>
               <li>
                 <img src="../../icons/redux.svg" alt="redux">
               </li>
               <li>
-                <img src="../../icons/sass-alt.svg" alt="sass">
+                <img src="../../icons/sass.svg" alt="sass">
               </li>
               <li>
-                <img src="../../icons/npm.svg" alt="npm">
+                <img src="../../icons/circleci.svg" alt="circleci">
               </li>
             </ul>
           </div>
@@ -209,16 +248,19 @@
           <div class="stack">
             <ul class="ui-list">
               <li>
-                <img src="../../icons/html-five.svg" alt="html">
+                <img src="../../icons/javascript.svg" alt="javascript">
+              </li>
+              <li>
+                <img src="../../icons/react.svg" alt="react">
               </li>
               <li>
                 <img src="../../icons/redux.svg" alt="redux">
               </li>
               <li>
-                <img src="../../icons/sass-alt.svg" alt="sass">
+                <img src="../../icons/sass.svg" alt="sass">
               </li>
               <li>
-                <img src="../../icons/npm.svg" alt="npm">
+                <img src="../../icons/circleci.svg" alt="circleci">
               </li>
             </ul>
           </div>

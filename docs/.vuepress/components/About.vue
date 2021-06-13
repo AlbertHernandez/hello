@@ -29,7 +29,7 @@
 }
 
 .social-icons-container {
-  margin-top: 64px;
+  margin-top: 32px;
 }
 
 .social-networks {
@@ -43,29 +43,22 @@
   padding: 0;
 }
 
-.social-networks > li > a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
-  background-color: #495057;
-  border-radius: 100%;
-  margin-right: 16px;
+.social-icons-container > ul > li {
+  margin-right: 32px;
 }
 
-.social-networks > li > a:hover {
-  background-color: #0086EB;
+.social-icons-container > ul > li > a > img {
+  width: 32px;
 }
 
 </style>
 
 <template>
-  <div class="about-section section">
-    <div class="name">
-      <span class="firstname">ALBERT</span>
-      <span class="lastname">HERNANDEZ</span>
-    </div>
+  <div class="about-section">
+<!--    <div class="name">-->
+<!--      <span class="firstname">ALBERT</span>-->
+<!--      <span class="lastname">HERNANDEZ</span>-->
+<!--    </div>-->
 
     <div class="introduction">
       <h2> Hi There, I'm Albert! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
@@ -85,22 +78,22 @@
       <ul class="ui-list social-networks">
         <li>
           <a href="https://github.com/AlbertHernandez">
-            <img class="icon" src="../../icons/github.svg" alt="github-icon">
+            <img src="../../icons/github.svg" alt="mongo">
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/albert-hernandez-pellicer/">
-            <img class="icon" src="../../icons/linkedin-x.svg" alt="linkedin-icon">
+            <img src="../../icons/linkedin.svg" alt="mongo">
           </a>
         </li>
         <li>
           <a href="https://medium.com/@AlbertHernandezDev">
-            <img class="icon" src="../../icons/medium-x.svg" alt="medium-icon">
+            <img src="../../icons/medium.svg" alt="mongo">
           </a>
         </li>
         <li>
           <a href="mailto:alberthernandezdev@gmail.com">
-            <img class="icon" src="../../icons/round-mail-outline.svg" alt="mail-icon">
+            <img src="../../icons/gmail.svg" alt="mongo">
           </a>
         </li>
       </ul>
@@ -109,6 +102,11 @@
 </template>
 
 <script>
+import GithubIcon from 'vue-material-design-icons/GitHub.vue';
+import LinkedinIcon from 'vue-material-design-icons/Linkedin.vue';
+import EmailIcon from 'vue-material-design-icons/Email.vue';
+import BookopenIcon from 'vue-material-design-icons/BookOpen.vue';
+
 export default {
   name: "Introduction",
 };
