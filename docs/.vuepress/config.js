@@ -42,11 +42,4 @@ module.exports = {
     '@vuepress/back-to-top',
     'vuepress-plugin-smooth-scroll'
   ],
-
-  thirdPartyComponents: {
-    fontAwesomeIcons:{
-      regular:['address-card','file-audio'],
-      solid:['battery-quarter']
-    }
-  }
 }

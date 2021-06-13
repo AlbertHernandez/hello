@@ -102,11 +102,6 @@
 </template>
 
 <script>
-import GithubIcon from 'vue-material-design-icons/GitHub.vue';
-import LinkedinIcon from 'vue-material-design-icons/Linkedin.vue';
-import EmailIcon from 'vue-material-design-icons/Email.vue';
-import BookopenIcon from 'vue-material-design-icons/BookOpen.vue';
-
 export default {
   name: "Introduction",
 };

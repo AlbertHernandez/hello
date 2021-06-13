@@ -22,9 +22,6 @@
   },
   "dependencies": {
     "timeline-vuejs": "^1.1.7",
-    "vue-cute-timeline": "^1.2.8",
-    "vue-material-design-icons": "^4.11.0",
-    "vue-typical": "^1.6.2",
-    "vuepress-plugin-font-awesome": "^1.90.6"
+    "vue-cute-timeline": "^1.2.8"
   }
 }
