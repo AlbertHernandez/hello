@@ -142,21 +142,15 @@
           <div class="time"> October 2019 - March 2021 </div>
           <div class="description">
             <p>
-              Together with some node developers, we have created multiple microservices that have
-              become core projects of the company.
+              Together with some node developers, we have created multiple microservices that have become core projects of the company.
             </p>
 
             <p>
-              For all these microservices I have been leading the part of the UI where we offer
-              real time information of all of them. I have also participated in the node services
-              themselves, working closely with the Product team, SalesForce and Node developers
-              for adapting all our services to new requirements in a scalable way.
+              For all these microservices I have been leading the part of the UI where we offer real-time information of all of them. I have also participated in the node services themselves, working closely with the Product team, SalesForce, and Node developers for adapting all our services to new requirements in a scalable way.
             </p>
 
             <p>
-              To carry out all these services we have used technologies like React and Redux
-              at the client, and for the backend Node with Koa. We have also used Postgres,
-              Mongo and Redis as database, all depending on the project itself.
+              To carry out all these services we have used technologies like React and Redux at the client, and for the backend Node with Koa. We have also used Postgres, Mongo, and Redis as databases, all depending on the project itself.
             </p>
           </div>
           <div class="stack">
