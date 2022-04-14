@@ -40,6 +40,12 @@
   background:linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%);
 }
 
+.card.bull {
+background: rgb(104,175,223);
+background: linear-gradient(90deg, rgba(104,175,223,1) 50%, rgba(0,191,255,1) 100%);
+
+}
+
 .card {
   width: 300px;
   box-sizing: border-box;
@@ -139,7 +145,34 @@ button {
             </a>
           </div>
         </li>
+
+          <li>
+            <div class="card bull">
+              <h2>Bull Bus</h2>
+              <p>
+                Library that exposes an async event bus using Bull with redis. Useful when we want to work with an event-bus in a project but we don't want to use external providers like kafka or PubSub.
+              </p>
+              <p>
+                <div class="stack">
+                  <ul class="ui-list">
+                    <li>
+                      <img src="../../icons/typescript.svg" alt="typescript">
+                    </li>
+                    <li>
+                      <img src="../../icons/nodejs.svg" alt="node">
+                    </li>
+                  </ul>
+                </div>
+              </p>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlbertHernandez/bull-bus">
+                <button>
+                  Visit
+                </button>
+              </a>
+            </div>
+          </li>
       </ul>
+
     </div>
 
     <p>
@@ -318,32 +351,6 @@ button {
             </div>
             </p>
             <a target="_blank" rel="noopener noreferrer" href="https://insomnia.rest/plugins/insomnia-plugin-ocean-dark-theme">
-              <button>
-                Visit
-              </button>
-            </a>
-          </div>
-        </li>
-
-        <li>
-          <div class="card sun">
-            <h2>Monokai Theme</h2>
-            <p>
-              Monokai theme for Insomnia
-            </p>
-            <p>
-            <div class="stack">
-              <ul class="ui-list">
-                <li>
-                  <img src="../../icons/javascript.svg" alt="javascript">
-                </li>
-                <li>
-                  <img src="../../icons/npm.svg" alt="docker">
-                </li>
-              </ul>
-            </div>
-            </p>
-            <a target="_blank" rel="noopener noreferrer" href="https://insomnia.rest/plugins/insomnia-plugin-monokai-theme">
               <button>
                 Visit
               </button>
