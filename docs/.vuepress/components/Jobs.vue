@@ -81,13 +81,60 @@
         </div>
       </timeline-title>
 
+            <timeline-item bg-color="#9dd8e0">
+              <div class="job">
+                <div class="position"> Senior Software Engineer </div>
+                <div class="time"> April 2022 - Present </div>
+                <div class="description">
+                  <p>
+                    After three years in the agent efficiency team I have moved to a new core team focused on messaging services.
+                  </p>
+
+                  <p>
+                    My main job is to define and implement how the integration with third parties will be in our platform, how will be the communication both externally with them and then internally.
+                  </p>
+                </div>
+                <div class="stack">
+                  <ul class="ui-list">
+                    <li>
+                      <img src="../../icons/typescript.svg" alt="typescript">
+                    </li>
+                    <li>
+                      <img src="../../icons/javascript.svg" alt="javascript">
+                    </li>
+                    <li>
+                      <img src="../../icons/nodejs.svg" alt="node">
+                    </li>
+                    <li>
+                      <img src="../../icons/koa.svg" alt="koa" class="koa-icon">
+                    </li>
+                    <li>
+                      <img src="../../icons/redis.svg" alt="redis">
+                    </li>
+                    <li>
+                      <img src="../../icons/mongodb.svg" alt="mongo">
+                    </li>
+                    <li>
+                      <img src="../../icons/kubernets.svg" alt="kubernets">
+                    </li>
+                    <li>
+                      <img src="../../icons/npm.svg" alt="npm">
+                    </li>
+                    <li>
+                      <img src="../../icons/circleci.svg" alt="circleci">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </timeline-item>
+
       <timeline-item bg-color="#9dd8e0">
         <div class="job">
           <div class="position"> Software Engineer </div>
-          <div class="time"> March 2021 - Present </div>
+          <div class="time"> March 2021 - April 2022 </div>
           <div class="description">
             <p>
-              I continue working on the microservices that we have been working on but now from a higher level.
+              Continue working on the microservices that we have been working on but now from a higher level.
             </p>
 
             <p>
