@@ -48,6 +48,10 @@
   width: 32px;
 }
 
+.social-icons-container > ul > li.youtube > a > img {
+  margin-top: -3px
+}
+
 </style>
 
 <template>
@@ -77,22 +81,27 @@
       <ul class="ui-list social-networks">
         <li>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlbertHernandez">
-            <img src="../../icons/github.svg" alt="mongo">
+            <img src="../../icons/github.svg" alt="github">
           </a>
         </li>
         <li>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/albert-hernandez-pellicer/">
-            <img src="../../icons/linkedin.svg" alt="mongo">
+            <img src="../../icons/linkedin.svg" alt="linkedin">
           </a>
         </li>
         <li>
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@AlbertHernandezDev">
-            <img src="../../icons/medium.svg" alt="mongo">
+            <img src="../../icons/medium.svg" alt="medium">
           </a>
         </li>
         <li>
           <a target="_blank" rel="noopener noreferrer" href="mailto:alberthernandezdev@gmail.com">
-            <img src="../../icons/gmail.svg" alt="mongo">
+            <img src="../../icons/gmail.svg" alt="mail">
+          </a>
+        </li>
+        <li class="youtube">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCrjQ8NCnBBI4M3CZlkua8CQ">
+            <img src="../../icons/youtube.svg" alt="youtube">
           </a>
         </li>
       </ul>
