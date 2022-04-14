@@ -81,7 +81,7 @@
         </div>
       </timeline-title>
 
-            <timeline-item bg-color="#9dd8e0">
+            <timeline-item bg-color="#ba90f6">
               <div class="job">
                 <div class="position"> Senior Software Engineer </div>
                 <div class="time"> April 2022 - Present </div>
